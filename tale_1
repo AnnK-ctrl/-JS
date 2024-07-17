@@ -1,0 +1,9 @@
+function newYear(name) {
+  if (name === 'Дед Мороз') {
+    return `${name}! '${name}!' ${name}!`;
+  } else {
+    return 'Не Дед Мороз';
+  }
+}
+
+console.log(newYear('Дед Мороз'));
